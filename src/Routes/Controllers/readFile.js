@@ -1,7 +1,8 @@
 const fs=require("fs").promises
 const readFile=async()=>{
     try {
-        const path ="2024-08-04-StagingTest-VirtualLatinos-WorkReport.pdf"
+        // const path ="2024-08-04-StagingTest-VirtualLatinos-WorkReport.pdf"
+        const path="Carla-CV-EN.pdf"
         const report = await fs.readFile(path);
         console.log(report);
         return report
